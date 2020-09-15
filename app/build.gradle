@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 //Variables
-def Google_Maps_Key = '""' + GoogleMapsKey + '""'?: '"Error"'
+def Google_Maps_Key = '"' + GoogleMapsKey + '"'?: '"Error"'
 def STRING = 'String'
 
 android {
